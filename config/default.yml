@@ -3631,6 +3631,11 @@ Style/SymbolProc:
     - respond_to
     - define_method
 
+Style/Ternary:
+  Description: 'Avoid the ternary operator.'
+  Enabled: false
+  VersionAdded: '0.71'
+
 Style/TernaryParentheses:
   Description: 'Checks for use of parentheses around ternary conditions.'
   Enabled: true
